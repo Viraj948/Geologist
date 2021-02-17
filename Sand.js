@@ -1,9 +1,9 @@
 class Sand{
     constructor(x, y, r) {
       var options = {
-          'restitution':1.3,
+          'restitution':0.3,
           'friction':5,
-          'density':3,
+          'density':1,
 
       }
       this.body = Bodies.circle(x,y,(r-20)/2, options);

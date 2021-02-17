@@ -5,7 +5,7 @@ class Rubber{
         'friction':5,
         'density':1,
     }
-    this.body=Bodies.circle(x,y,r,options);
+    this.body=Bodies.circle(x,y,(r+20/2),options);
     this.x=x;
     this.y=y;
     this.r=r;
